@@ -1,0 +1,40 @@
+{
+  "name": "highlight-widget",
+  "version": "1.1.0",
+  "description": "A widget pops up on highlighted text",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicahMartin/highlighter.git"
+  },
+  "author": "Micah Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicahMartin/highlighter/issues"
+  },
+  "homepage": "https://github.com/MicahMartin/highlighter#readme",
+  "peerDependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
