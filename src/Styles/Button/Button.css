@@ -1,0 +1,24 @@
+.button--container{
+  display: inline-block;
+  padding-top: 10px;
+  height: 44px;
+  width: 30%;
+  margin: 0px 1.5% 0px 1.5%;
+}
+.button--button{
+  border:none;
+  position:relative;
+  width: 50%;
+  margin-left: 25%;
+  height: 75%;
+  background-size: 100% 100% !important;
+}
+.button--button.twitter{
+  background: url(https://image.flaticon.com/icons/svg/39/39552.svg) no-repeat;
+}
+.button--button.facebook{
+  background: url(https://png.icons8.com/metro/1600/facebook.png) no-repeat;
+}
+.button--button.comment{
+  background: url(http://www.free-icons-download.net/images/comment-icon-46236.png) no-repeat;
+}
